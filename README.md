@@ -117,7 +117,7 @@ GROUP BY b.isbn;
 SELECT * FROM book_counts;
 ```
 
-# 4. Data Analysis & Findings
+**4. Data Analysis & Findings**  
 **Task 7. Retrieve All Books in a Specific Category:**
 ```sql
 select * from books
@@ -166,7 +166,7 @@ ON i.issued_id = r.issued_id
 WHERE r.return_date IS NULL;
 ```
 
-# 5. Advance SQL Queries
+**5. Advance SQL Queries**  
 ```sql
 -- Adding new records
 INSERT INTO issued_status(issued_id, issued_member_id, issued_book_name, issued_date, issued_book_isbn, issued_emp_id)
